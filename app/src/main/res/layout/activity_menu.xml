@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    android:padding="35dp"
+    android:orientation="vertical"
+    tools:context=".Table">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your food"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_gravity="center_horizontal"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger - Rs. 25 only/-"
+        android:id="@+id/burg"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pasta - Rs. 50 only/-"
+        android:id="@+id/pasta"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chowmein - Rs. 80 only/-"
+        android:id="@+id/ch"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Momos - Rs. 100 only/-"
+        android:id="@+id/mo"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza - Rs. 100 only/-"
+        android:id="@+id/piz"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/od"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#FF0000"
+        android:text=""
+        android:id="@+id/det"/>
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:rotationX="6"
+        android:text="Pay Now" />
+
+
+
+
+</LinearLayout>

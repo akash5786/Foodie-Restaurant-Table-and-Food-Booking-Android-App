@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    android:orientation="vertical"
+    tools:context=".Table">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Select your table (Rs. 50 per Seat"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_gravity="center_horizontal"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table 1"
+        android:textColor="@color/white"
+        android:id="@+id/t1"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table 2"
+        android:textColor="@color/white"
+        android:id="@+id/t2"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table 3"
+        android:textColor="@color/white"
+        android:id="@+id/t3"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table 4"
+        android:textColor="@color/white"
+        android:id="@+id/t4"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table 5"
+        android:textColor="@color/white"
+        android:id="@+id/t5"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table 6"
+        android:textColor="@color/white"
+        android:id="@+id/t6"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Table"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/od"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text=""
+        android:id="@+id/det"/>
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:rotationX="6"
+        android:text="Pay Now" />
+
+
+</LinearLayout>

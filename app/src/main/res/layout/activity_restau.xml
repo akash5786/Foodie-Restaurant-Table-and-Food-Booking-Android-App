@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Restau"
+    android:background="@drawable/bac">
+
+    <ImageView
+        android:layout_width="334dp"
+        android:layout_height="244dp"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:src="@drawable/hotncool"></ImageView>
+
+
+    <Button
+        android:id="@+id/menu1"
+        android:layout_width="276dp"
+        android:layout_height="99dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="240dp"
+        android:text="View Menu"
+        android:textSize="20dp"></Button>
+
+    <ImageView
+        android:layout_width="307dp"
+        android:layout_height="202dp"
+        android:layout_marginLeft="-290dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/table"></ImageView>
+
+
+    <Button
+        android:id="@+id/table5"
+        android:layout_width="282dp"
+        android:layout_height="106dp"
+        android:layout_marginLeft="-290dp"
+        android:layout_marginTop="600dp"
+        android:text="Book Table"
+        android:textSize="20dp"></Button>
+
+
+</LinearLayout>
